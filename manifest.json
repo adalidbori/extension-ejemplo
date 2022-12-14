@@ -1,0 +1,11 @@
+{
+    "name": "Extension de aprendizaje",
+    "description":"Esta es una extension de prueba de desarrolo con objetivos de aprendizaje",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "js": ["script.js"],
+        "matches": ["https://twitter.com/*"],
+        "run_at": "document_end"
+    }]
+}
